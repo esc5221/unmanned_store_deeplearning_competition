@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./darknet detector map yolov4.data cfg/yolov4-tiny-custom.cfg $1
+

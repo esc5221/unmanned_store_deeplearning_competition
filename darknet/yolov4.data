@@ -1,0 +1,5 @@
+classes = 60
+train = ./data/target.txt
+valid = ./data/test.txt
+names = ./data/names.txt
+backup = ./backup/

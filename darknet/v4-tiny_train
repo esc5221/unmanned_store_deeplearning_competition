@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export CUDA_VISIBLE_DEVICES=0
+./darknet detector train yolov4.data cfg/yolov4-tiny-custom.cfg $1 -map
+
